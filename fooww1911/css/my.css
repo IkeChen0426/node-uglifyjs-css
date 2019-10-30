@@ -1,0 +1,221 @@
+﻿[v-cloak] {
+    display: none;
+}
+
+#tabs {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#content {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: rgba(246,246,246,1);
+}
+
+#my-coupon {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#tabs li {
+    margin: 0;
+    flex: 1;
+    background: #fff;
+    line-height: 44px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgba(153,153,153,1);
+}
+
+.active {
+    font-weight: bold;
+    color: rgba(41,29,29,1) !important;
+    position: relative;
+}
+
+    .active::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: rgba(41,29,29,1);
+        content: ''
+    }
+
+.coupon-box {
+    padding: 15px 15px 0;
+}
+
+    .coupon-box .coupon {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 15px;
+        box-shadow: 0px 2px 6px rgba(39,61,81,0.06);
+        position: relative;
+    }
+
+        .coupon-box .coupon::before {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: rgba(246,246,246,1);
+            border-radius: 50%;
+            position: absolute;
+            left: -5px;
+            bottom: 38px;
+        }
+
+        .coupon-box .coupon::after {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: rgba(246,246,246,1);
+            border-radius: 50%;
+            position: absolute;
+            right: -5px;
+            bottom: 38px;
+        }
+
+.coupon-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(238,238,238,1);
+}
+
+    .coupon-top .ticket-name {
+        font-size: 17px;
+        font-weight: bold;
+        color: rgba(41,29,29,1);
+        position: relative;
+    }
+
+    .coupon-top .will-expire {
+        display: block;
+        height: 18px;
+        width: 53px;
+        text-align: center;
+        line-height: 16px;
+        font-size: 10px;
+        color: rgba(153,153,153,1);
+        font-weight: 400;
+        border: 1px solid rgba(204,204,204,1);
+        opacity: 1;
+        border-radius: 4px;
+        margin-left: 5px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 5px;
+        left: 53px;
+    }
+
+    .coupon-top .ticket-id,
+    .coupon-top .end-time {
+        font-size: 13px;
+        color: rgba(153,153,153,1);
+    }
+
+    .coupon-top .ticket-price {
+        font-size: 35px;
+        color: rgba(255,51,39,1);
+    }
+
+    .coupon-top .ticket-type {
+        color: rgba(255,51,39,1);
+    }
+
+.coupon-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+    padding: 9px 0;
+}
+
+    .coupon-bottom .ticket-des {
+        font-size: 12px;
+        color: rgba(204,204,204,1);
+    }
+
+    .coupon-bottom .ticket-use {
+        display: block;
+        width: 75px;
+        height: 24px;
+        background: rgba(255,99,99,1);
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+.rules {
+    padding: 15px 15px 0;
+    font-size: 13px;
+    color: rgba(204,204,204,1);
+    margin-bottom: 15px;
+}
+/*返回首页*/
+.back-to-index {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 170px;
+    right: 5px;
+    z-index: 10;
+}
+
+    .back-to-index img {
+        display: block;
+        width: 80px;
+        height: 80px;
+    }
+
+.no-coupon {
+    padding-top: 70px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+    .no-coupon img {
+        width: 214px;
+    }
+
+    .no-coupon p {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(153,153,153,1);
+        margin: 20px 20px 23px 20px;
+    }
+
+    .no-coupon div {
+        width: 135px;
+        height: 34px;
+        background: rgba(246,246,246,1);
+        border: 1px solid rgba(67,155,253,1);
+        border-radius: 17px;
+        margin: 0 auto;
+        line-height: 34px;
+        color: rgba(67,155,253,1);
+    }

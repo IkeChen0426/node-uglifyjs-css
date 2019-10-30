@@ -1,0 +1,507 @@
+/* ======== index ========== */
+.info-title {
+    visibility: hidden;
+    background: #fff;
+    color: #606266;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: -13px;
+    left: 0;
+}
+
+/* 表单 */
+.new-contact-info {
+    width: 100%;
+    outline: none;
+    border: 0;
+    background: #f2f2f2;
+    color: #333;
+    margin-top: 10px;
+    border-radius: 3px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.service-item-wrap {
+    position: relative;
+    float: left;
+    width: 48%;
+}
+
+.service-item {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f2f2f2;
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.hot-product {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product-checked {
+    border: 1px solid #FF3327;
+    color: #FF3327;
+    background: #fff8f8;
+}
+
+.appointment {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #FF4162, #FC1717);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.red-border {
+    border: 1px solid #FF3327;
+}
+
+.swiper-banner1, .swiper-banner2 {
+    width: 100%;
+}
+
+.swiper-banner3, .swiper-banner4 {
+    width: 100%;
+    height: 460px;
+}
+
+/* 介绍 */
+#share-to-wechat {
+    visibility: hidden;
+    width: 50%;
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+/* ============= 2018双十一 =========== */
+/*活动规则*/
+.active-rule {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 34px;
+    height: 32px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    z-index: 999;
+    font-size: 12px;
+    padding: 3px 0 0 5px;
+}
+
+/*查看我的拼团*/
+.notice-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-top: 3px;
+    float: left;
+}
+
+.notice-title {
+    height: 40px;
+    overflow: hidden;
+    width: 85%
+}
+
+    .notice-title li {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #333333;
+    }
+
+.anim-notice-wrap {
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.anim-notice {
+    float: left;
+}
+
+.view-my-group {
+    float: right;
+    font-size: 14px;
+    color: #1485FF;
+    padding-left: 10px;
+}
+
+
+/*立即预约置底按钮*/
+.appointment-fixed {
+    width: 100%;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    background: #FEFEFE;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 0.36rem;
+    z-index: 4999;
+    color: #FF3327;
+    font-weight: bold;
+}
+/*活动开启倒计时*/
+.dynamic-time-wrap {
+    margin: 10px;
+    color: #333;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.fooww-activity-day, .fooww-activity-hour, .fooww-activity-minute, .fooww-activity-second {
+    display: inline-block;
+    background: linear-gradient(180deg,rgba(255,101,33,1) 0%,rgba(255,43,0,1) 100%);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.time-colon {
+    margin: 0 0 0 5px;
+    font-size: 14px;
+    vertical-align: bottom;
+    color: #333;
+}
+
+
+.popup-hide {
+    display: none;
+}
+
+/*手机梵讯限时拼团*/
+.product-title {
+    margin: 0 0 5px 0;
+}
+
+.fooww-activity-snap-up {
+    display: inline-block;
+    background: #ccc;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: -35px;
+    border-radius: 16px;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+}
+
+.snap-up-on {
+    background: linear-gradient(#FF4162, #FC1717);
+}
+
+.group-product-picter {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cur-three-group-people, .cur-five-group-people {
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    padding: 3px 10px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    border-radius: 13px;
+    font-size: 12px;
+}
+
+/*标题*/
+.title-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .title-wrap img, .title-wrap p {
+        float: left;
+    }
+
+.more-activity {
+    position: absolute;
+    width: 98vw;
+    left: 1vw;
+    bottom: -57px;
+    z-index: 9;
+}
+
+    .more-activity > img {
+        width: 100%;
+    }
+
+.active-list {
+    font-size: 14px;
+    text-align: center;
+}
+
+    .active-list a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        margin-top: 10px;
+        border-radius: 3px;
+        background-color: #FF6521;
+    }
+
+.content {
+    position: absolute;
+    top: 50vw;
+    z-index: 666;
+    width: 100%;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(251,69,44,1);
+}
+
+.block-item {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+
+    .block-item .title-wrap p {
+        position: relative;
+    }
+
+        .block-item .title-wrap p::before,
+        .block-item .title-wrap p::after {
+            content: '';
+            display: block;
+            width: 25px;
+            height: 2px;
+            background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+            position: absolute;
+            top: 12px;
+        }
+
+        .block-item .title-wrap p::before {
+            left: -39px;
+        }
+
+        .block-item .title-wrap p::after {
+            right: -39px;
+            transform: rotate(180deg);
+        }
+
+    .block-item.activity-count-down {
+        height: 107px;
+        font-size: 20px;
+    }
+
+    .block-item.five-icons {
+        height: 110px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: url("/Content/fooww1911/img/index/entranceBorder.png") no-repeat center center;
+        background-size: 108% 120%;
+    }
+
+        .block-item.five-icons .entrance-icon {
+            text-align: center;
+            font-size: 14px;
+            color: #FF3327;
+            font-weight: 700;
+        }
+
+.entrance-icon img {
+    display: block;
+    width: 46px;
+    height: 49px;
+}
+
+.block-item.activity-entrance {
+    height: 2.86rem;
+    padding: 0.28rem;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.activity-entrance .activity-pic {
+    width: 2.8rem;
+    height: 2.3rem;
+    margin-right: 14px;
+    background: rgba(246,246,246,1);
+}
+
+    .activity-entrance .activity-pic img {
+        display: block;
+        height: auto;
+        width: 2.8rem;
+        height: 2.3rem;
+    }
+
+.entrance-detail {
+    flex: 1;
+}
+
+    .entrance-detail .title {
+        font-size: 0.34rem;
+        font-weight: 700;
+        line-height: 0.48rem;
+        color: rgba(41,29,29,1);
+    }
+
+    .entrance-detail .sub-title {
+        font-size: 0.26rem;
+        line-height: 0.36rem;
+        color: rgba(102,102,102,1);
+        margin-bottom: 0.22rem;
+    }
+
+    .entrance-detail .start-time {
+        font-size: 0.24rem;
+        line-height: 0.32rem;
+        color: rgba(153,153,153,1);
+        margin-bottom: 0.14rem;
+    }
+
+    .entrance-detail .go-to-activity {
+        width: 3.44rem;
+        height: 0.68rem;
+        border-radius: 0.04rem;
+        font-size: 0.3rem;
+        font-weight: bold;
+        line-height: 0.68rem;
+        color: rgba(255,255,255,1);
+        text-align: center;
+    }
+
+    .entrance-detail .disablebtn {
+        background: rgb(194, 194, 194);
+    }
+
+    .entrance-detail .canClick {
+        background: linear-gradient(90deg,rgba(255,108,91,1) 0%,rgba(255,70,70,1) 100%);
+    }
+
+.bulletin-board {
+    padding: 0 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF9EF;
+}
+
+.index-activity-rules {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.activity-rule-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    width: 150px;
+    margin: 0 auto 16px;
+}
+
+    .activity-rule-title::before,
+    .activity-rule-title::after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+        position: absolute;
+        top: 11px;
+    }
+
+    .activity-rule-title::before {
+        left: 10px;
+    }
+
+    .activity-rule-title::after {
+        transform: rotate(180deg);
+        right: 10px;
+    }
+
+.index-reservation {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.reservation-title {
+    height: 34px;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+    color: rgba(41,29,29,1);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.raiders,
+.my {
+    font-size: 10px;
+    position: fixed;
+    z-index: 1000;
+    width: 33px;
+    height: 24px;
+    text-align: center;
+    right: 0;
+}
+
+.raiders {
+    top: 10px;
+}
+
+    .raiders img {
+        width: 100%;
+        height: 100%;
+    }
+
+.my {
+    top: 47px;
+}
+
+    .my img {
+        width: 100%;
+        height: 100%;
+    }

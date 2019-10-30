@@ -1,0 +1,147 @@
+/*产品介绍*/
+.product-wrap {
+    background: #fff;
+    border-radius: 4px;
+    width: 94%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3%;
+    top: 40px;
+    box-shadow: 0px 3px 10px rgba(72,11,7,0.08);
+}
+.product-avater{float: left;width: 100px;height: 100px;background: #eee;}
+.media-top {
+    display:flex;
+    align-items:center;
+}
+@media screen and (min-width:320px) {
+    .product-avater{width: 88px;height: 88px;}
+    .product-wrap{height: 108px;}
+    .media-line-height{line-height: 18px;}
+    .media-top{margin-top: 6px;}
+}
+@media screen and (min-width:375px)
+{
+    .product-avater{width: 100px;height: 100px;}
+    .product-wrap{height: 120px;}
+    .media-line-height{line-height: 21px;}
+    .media-top{margin-top: 10px;}
+}
+.product-avater img{width: 100%;height: 100%;}
+
+/*活动开启倒计时*/
+.dynamic-time-wrap {
+    color: #f44;
+    text-align: center;
+}
+
+.fooww-activity-day {
+    font-size: 70px;
+    vertical-align: middle;
+}
+
+.fooww-activity-hour, .fooww-activity-minute, .fooww-activity-second {
+    display: inline-block;
+    background: #FF4646;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.dynamic-time-wrap .time-colon {
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: middle;
+    margin: 0 -8px 0 8px;
+}
+
+.time-colon-day {
+    margin: 0 20px 0 0;
+}
+
+/*邀请好友开团*/
+.my-group-member {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.no-member-wrap {
+    margin-left: 13px;
+}
+
+.group-member-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    float: left;
+}
+
+.group-leader {
+    width: 42px;
+    height: 16px;
+    line-height: 16px;
+    background: linear-gradient(90deg,rgba(255,216,22,1) 0%,rgba(251,171,9,1) 51%,rgba(249,141,0,1) 100%);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    left: 4px;
+    bottom: 21px;
+    border-radius: 26px;
+}
+
+.no-member-question {
+    display: block;
+    background: #f7f7f7;
+    color: #d0d0d0;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 50%;
+    float: left;
+    border: 1px dashed #ccc;
+    box-sizing: border-box;
+}
+
+.wait-to-invite {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+}
+
+.invite-friend-join, .continue-to-group {
+    display: block;
+    width: 80%;
+    margin: auto;
+    max-width: 280px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+
+.continue-to-group {
+    border: 1px solid #FC1717;
+    color: #FC1717;
+    margin-top: 15px;
+}
+
+.red-font {
+    color: #FF3327;
+}

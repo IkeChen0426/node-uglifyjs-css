@@ -1,0 +1,220 @@
+﻿html,body{margin: 0;padding: 0;
+          -webkit-text-size-adjust: none;
+          -moz-text-size-adjust:none; 
+          -ms-text-size-adjust: none;
+          text-size-adjust: none}
+html,body,input,button{font-family: "Microsoft YaHei";-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+html, body{font-family: "Microsoft YaHei", Arial, Helvetica, "宋体", sans-serif;}
+body,p{ margin: 0;padding: 0; }
+.clearfix {*zoom: 1;}
+.clearfix:before, 
+.clearfix:after {display: table; line-height: 0; content: "";} 
+.clearfix:after {clear: both;}
+html,body,p{margin: 0;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input{-webkit-appearance: none;}
+img {pointer-events: none;}
+ul, li {margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+
+body {
+    background: #E8282B;
+}
+.theme-color{color: #439BFD;}
+.theme-bg{background: #439BFD;}
+.blue-gradient-bg{background: linear-gradient(#0EA8FF, #1485FF);}
+.red-gradient-bg-to-right{background: linear-gradient(#FF4162, #FC1717);}
+.red-gradient-bg {
+    background: linear-gradient(#FF4162, #FC1717);
+}
+.red-color{color: #FF4027;}
+.red-bg{background: #FE4E17;}
+.ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.pointer{cursor: pointer;}
+
+/*自定义弹窗*/
+.custome-layer{display: none;width: 100%;height: 100%;}
+.custom-layer-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    z-index: 999999;
+}
+.layer-content {
+    max-width: 180px;
+    background: #000;
+    padding: 15px 20px;
+    display: block;
+    margin:0 auto;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+.layer-msg{margin-top: 5px;z-index: 999999;}
+.layer-content-no-icon .layer-content {
+    padding: 10px 20px;
+}
+.layer-content-no-icon .layer-msg{margin-top: 0;}
+
+/*拼团价格*/
+.group-price {
+    color: #f00;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.normal-price {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.group-label {
+    display: inline-block;
+    padding: 0 3px;
+    color: #f00;
+    font-size: 12px;
+    border: 1px solid #f00;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin: -4px 3px 0 0;
+}
+
+/*拼团玩法*/
+.group-step-wrap{width: 23%;text-align: center;float: left;font-size: 14px;position: relative;}
+.group-step-wrap img{width: 25px;height: 25px;}
+.step-title{width: 100%;color: #666;}
+.step-line{width: 50%;position: absolute;right: -25%;top: 13px;border-top: 1px solid #999;}
+.to-rule{float: right;margin-top: -38px;color: #fff;display: inline-block;width: 80px;height: 26px;line-height: 26px;text-align: center;background: rgba(0,0,0,.2);border-radius: 13px;font-size: 12px;cursor: pointer;}
+.to-rule2{float: right;font-size: 12px;color: #777;cursor: pointer;margin-top: 5px;}
+
+/*正在拼团的经纪人*/
+.item-title{padding: 0 10px 10px 10px;font-weight: 700;border-bottom: 1px solid #eaeaea;color: #333;}
+.grouping-item-wrap{padding: 10px;border-bottom: 1px solid #e3e4e5;}
+.grouping-item-wrap .img-wrap{float: left;}
+.grouping-item-wrap .img-wrap img{width: 46px;height: 46px;border-radius: 50%;border: 2px solid #fff;box-sizing: border-box;margin-left: -32px;}
+.grouping-item-wrap .img-wrap img:first-child{margin-left: 0;}
+
+.grouping-item-wrap .join-group,
+.grouping-item-wrap .invite-friend,
+.grouping-item-wrap .group-success,
+.grouping-item-wrap .group-fail{display: block;width: 80px;height: 34px;line-height: 34px;background: linear-gradient(#FF4162, #FC172D);color: #fff;text-align: center;font-size: 16px;border-radius: 4px;margin: 6px 0 0 10px;}
+.grouping-item-wrap .invite-friend{background: linear-gradient(#0EA7FF, #1192FF);}
+.grouping-item-wrap .group-success{background: transparent;color: #2AB52A;}
+.grouping-item-wrap .group-fail{background: transparent;color: #ccc;}
+.grouping-item-wrap .left-time{color: #777;font-size: 14px;}
+.grouping-item-wrap .left-time .group-time-width{display: inline-block;width: 18px;text-align: center;}
+.grouping-item-wrap .left-time .time-colon{vertical-align: top;display: inline-block;margin-right: -4px;}
+
+/*登录注册*/
+.mask{display: none;background: #000;opacity: 0.5;width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: 999;}
+.login-wrap,.regist-wrap{display:none;width: 700px;padding: 15px;background: #fff;position: fixed;bottom: 0;left: 0;right: 0;margin: 0 auto;z-index: 1000;box-sizing: border-box;}
+.fooww-account,.user-name,.regist-phone,.captcha,.regist-city,.password{width: 100%;height: 40px;background: #f2f2f2;padding: 0 10px;outline: none;border: 1px solid transparent;border-radius: 3px;box-sizing: border-box;font-size: 14px;}
+.confirm-login,.regist-btn{display: block;margin-top: 20px;width: 100%;height: 40px;line-height: 40px;text-align: center;border-radius: 4px;background: linear-gradient(#FF4162, #FC1717);color: #fff;}
+.confirm-login-disabled,.regist-btn-disabled{background: #ccc;color: #fff;}
+
+.choose-account-text {
+    display: none;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.match-result-item-wrap {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.match-name {
+    width: 150px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.match-company {
+    font-size: 14px;
+}
+
+.choose-account,.regist-choose-account {
+    display: inline-block;
+    color: #fff;
+    width: 56px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 13px;
+    float: right;
+}
+
+.regist-time{font-size: 12px;width: 135px;float: right;color: #999;}
+.blur-check-phone{display: none;background: #fff;width: 700px;height: 255px;padding: 10px;position: fixed;bottom: 0;left: 0;box-sizing: border-box;}
+
+@media screen and (min-width:320px)
+{
+    .choose-account,.regist-choose-account{margin-top: -25px;}
+    .match-company {
+        width: 160px;
+    }
+}
+@media screen and (min-width:375px)
+{
+    .regist-time{margin-right: 60px;}
+    .choose-account,.regist-choose-account{margin-top: -35px;}
+    .match-company {
+        width: 200px;
+    }
+}
+
+/*注册框*/
+.regist-wrap input,.regist-wrap select{margin-bottom: 13px;}
+.get-captcha{display: inline-block;background: #FF4027;color: #fff;width: 48%;height: 40px;line-height: 40px;text-align: center;margin-left: 4%;border-radius: 4px;}
+.get-captcha-disabled{background: #ccc;color: #fff;}
+
+.weui-picker{width: 700px !important;left: 0 !important;right: 0;margin: 0 auto;}
+
+/*我的拼团*/
+.my-no-group{text-align: center;margin-top: 40px;}
+.my-no-group-title{margin: 20px;font-size: 14px;color: #999;}
+.my-no-group-to-join{display: block;width: 135px;height: 34px;line-height: 34px;text-align: center;color: #439BFD;margin: 10px auto;border-radius: 20px;border: 1px solid #439BFD;}
+.my-no-group-to-login{display: block;width: 135px;height: 34px;line-height: 34px;text-align: center;color: #439BFD;margin: 10px auto;border-radius: 20px;border: 1px solid #439BFD;}
+
+/*分享导图*/
+.share-wechat-wrap {display: none;width: 100%;height: 100%;position: fixed;top: 0;left: 0;background: rgba(0,0,0,.7);}
+.share-wechat{position: absolute;top: 0;right: 10px;width: 140px;}
+
+/*回到落地页*/
+.to-index{width: 90px;position: fixed;bottom: 80px;right: 30px;cursor: pointer;}
+.to-index img{width: 100%;}
+.to-my-group{display: block;width: 100px;height: 40px;line-height: 40px;text-align: center;border-radius: 3px;background: #09f;color: #fff;}
+
+/*微信分享*/
+#wechat-share-wrap{display: none;position: fixed;top: 0;left: 0;background: #fff;padding: 10px;}
+#wechat-share-img{width: 200px;height: 200px;margin: 10px auto;}
+#wechat-share-wrap p{font-size: 14px;}
+
+/* CNZZ */
+span[id^="cnzz_stat_icon"]
+{
+    position:absolute;
+    bottom:-20px;
+    left:-40px;
+}
+
+/*PC端*/
+body {
+    min-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#output {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 265px;
+    left: 344px;
+}

@@ -1,0 +1,358 @@
+/*公共样式start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.themeColor {
+    color: rgba(255, 51, 39, 1)
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.themebg {
+    background: linear-gradient(90deg,rgba(255,115,99,1) 0%,rgba(255,70,70,1) 100%);
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-button {
+    width: 1.8rem;
+    height: 0.68rem;
+    line-height: 0.68rem;
+    text-align:center;
+    font-size: 0.3rem;
+    color: #fff;
+    border-radius: 0.04rem;
+    cursor: pointer;
+    background-color: rgba(194, 194, 194, 1);
+}
+/*公共样式end*/
+
+.activity-seckill {
+    padding-top: 3.9rem;
+    background: url(../img/seckill/seckill-banner.png) no-repeat;
+    background-size: 100% 4.6rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(223, 78, 77, 1);
+}
+
+.m-scene {
+    box-sizing: border-box;
+    width: 7.1rem;
+    /*height: 3.88rem;*/
+    background-color: #fff;
+    border-radius: 0.16rem;
+    font-size: 0.32rem;
+    padding: 0.4rem 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.seckill-com {
+    margin-top: 0.37rem;
+}
+
+    .seckill-com img {
+        width: 2.3rem;
+        height: 2.3rem;
+        margin-right: 0.24rem;
+    }
+
+.seckillComright {
+    width: 3.98rem;
+}
+
+.com-content {
+    color: rgba(41, 29, 29, 1);
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 0.38rem;
+}
+
+.orp {
+    color: rgba(204, 204, 204, 1);
+    text-decoration: line-through;
+    font-size: 0.24rem;
+}
+
+.rp {
+    font-weight: 600;
+    margin-left: 0;
+    height: 30px;
+    margin-top: 0.04rem
+}
+
+.rmb {
+    margin-left: 0;
+    line-height: 0.5rem;
+    font-size: 0.28rem;
+}
+
+.num {
+    font-size: 0.46rem;
+    line-height: 0.5rem;
+    margin-left: 2px;
+}
+
+.active-time {
+    display: flex;
+    font-size: 0.24rem;
+    color: rgba(153, 153, 153, 1);
+    align-items: center;
+}
+
+.m-time {
+    color: rgba(41,29,29,1);
+    font-size: 0;
+    margin-left: 0.1rem;
+}
+
+.time-colon {
+    margin: 0 0.06rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.fooww-activity-hour, .fooww-activity-minute, .fooww-activity-second {
+    display: inline-block;
+    text-align: center;
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: rgba(41,29,29,1);
+    border-radius: 0.04rem;
+    font-size: 0.26rem;
+    color: #fff;
+}
+
+.fooww-activity-data {
+    display: inline-block;
+    color: rgba(255, 51, 39, 1);
+    font-size: 0.26rem;
+    margin-right: 0.1rem;
+}
+
+.m-rule {
+    width: 7.1rem;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 1);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+    .m-rule p {
+        line-height: 25px;
+        margin: 0.2rem 0
+    }
+
+.rule-title {
+    position:relative;
+    color: rgba(41, 29, 29, 1);
+    width: 2.04rem;
+    margin: 0 auto;
+    font-size: 0.34rem;
+    font-weight: bold;
+    margin-bottom: 0.32rem;
+    white-space: nowrap;
+}
+    .rule-title:before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: -0.66rem;
+        width: 0.5rem;
+        height: 0.04rem;
+        background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+        opacity: 1;
+    }
+    .rule-title:after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: -0.66rem;
+        width: 0.5rem;
+        height: 0.04rem;
+        background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+        opacity: 1;
+        transform: rotate(180deg)
+    }
+
+
+    /*tab*/
+.active-tab {
+    width: 7.1rem;
+    height: 0.9rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+    margin: 0 auto;
+    background-image: url('../img/seckill/tableft.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #FE6B4B;
+    border-radius: 0.16rem 0.16rem 0 0;
+}
+
+
+    .active-tab div {
+
+        text-align: center;
+        width: 50%;
+        height: 0.9rem;
+        line-height: 0.8rem;
+        color: rgba(255, 192, 120, 1);
+    }
+
+    .active-tab .active {
+        color: rgba(255, 51, 39, 1);
+        /*background: #fff;*/
+    }
+
+.item2 {
+    display: none;
+}
+
+.item1, .item2 {
+    margin-top: -1px;
+}
+/**结果提示*/
+.seckill-success {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 99;
+}
+
+.seckill-bg {
+    position: relative;
+    left: 0.86rem;
+    top: 1.5rem;
+    width: 5.78rem;
+    height: 8.38rem;
+    background: url('../img/seckill/seckillSuccess.png') no-repeat;
+    background-size: 100% 100%;
+
+}
+.shop-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 4.8rem;
+    font-weight: bold;
+    font-size: 0.5rem;
+    color: rgba(252,218,183,1);
+    text-shadow: 1px 0.06rem 0.14rem rgba(255,0,0,0.77);
+    background: linear-gradient(0deg,rgba(255,255,254,1) 24.609375%, rgba(254,255,191,1) 99.21875%);
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/
+}
+
+.seckill-fail {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 99;
+}
+
+.fail-seckill-bg {
+    position: relative;
+    left: 0.86rem;
+    top: 1.5rem;
+    width: 5.78rem;
+    height: 8.38rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: url('../img/seckill/seckillfail.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.fail-title {
+    position: absolute;
+    text-align: center;
+    bottom: 3.78rem;
+    font-size: 0.3rem;
+    color: rgba(244,244,244,1);
+    text-shadow: 0px 0.02rem 0.05rem rgba(130,130,130,0.77);
+    margin: 0 auto;
+}
+    .fail-title:before {
+        content: "";
+        position: absolute;
+        top: 0.22rem;
+        left: -0.64rem;
+        width: 0.5rem;
+        height: 0.02rem;
+        background: linear-gradient(90deg,#828282 0%,rgba(244,244,244,0.7) 100%);
+        opacity: 1;
+        box-shadow: 0px 0.02rem 0.05rem 0px rgba(130,130,130,0.77);
+    }
+
+    .fail-title:after {
+        content: "";
+        position: absolute;
+        top: 0.22rem;
+        right: -0.64rem;
+        width: 0.5rem;
+        height: 0.02rem;
+        background: linear-gradient(90deg,#828282 0%,rgba(244,244,244,0.7) 100%);
+        opacity: 1;
+        transform: rotate(180deg);
+        box-shadow: 0px 0.02rem 0.05rem 0px rgba(130,130,130,0.77);
+    }
+.fail-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 2.8rem;
+    font-weight: bold;
+    font-size: 0.5rem;
+    color: rgba(224,224,224,1);
+    text-shadow: 1px 6px 12px rgba(130,130,130,0.5);
+    background: linear-gradient(0deg,rgba(255,255,255,1) 24.609375%, rgba(252,252,252,1) 99.21875%);
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/
+}
+.fail-but-js, .fail-but {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0.8rem;
+    font-size: 0.45rem;
+    font-weight: bold;
+    color: rgba(237,42,46,1);
+}
+
+
+.tipshow {
+    opacity: 1;
+    pointer-events: auto;
+}

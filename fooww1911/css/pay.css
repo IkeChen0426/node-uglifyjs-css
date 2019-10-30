@@ -1,0 +1,89 @@
+/*手机梵讯限时拼团*/
+.product-title {
+    margin: 0 0 0.2rem;
+    font-size: 0.32rem;
+}
+.group-product-picter{width: 100%;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+/*退款说明*/
+.notice-content{margin: -2px 0 0 6px;color: #666;font-size: 14px;float: left;}
+
+/*支付方式*/
+.wechat-pay {
+
+}
+
+.alipay {
+    border-top: 1px solid #e3e4e5;
+    padding-top: 10px;
+}
+
+.pay-active-or-not{float: right;margin-top: 2px;}
+
+/*支付按钮*/
+.pay-sure2 {
+    display: block;
+    background: linear-gradient(270deg,rgba(255,70,70,1) 0%,rgba(255,108,91,1) 100%);
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/*底部付款*/
+.pay-fixed-wrap{background: #fff;width: 100%;height: 50px;position: fixed;bottom: 0;left: 0;border-top: 1px solid #ccc;}
+.money{width: 76px;height: 50px;line-height: 50px;text-align: center;float: left;border-right: 1px solid #ccc;font-size: 16px;}
+.other-to-pay {height: 50px;text-align: center;font-size: 16px;}
+.pay-sure1{width: 45%;background: linear-gradient(to right, #FC1717, #FF4162);height: 50px;line-height: 50px;text-align: center;font-size: 16px;float: right;color: #fff;cursor: pointer;}
+/*登录用户信息*/
+.active-user {
+    height: 2.02rem;
+    box-sizing: border-box;
+    padding: 0.26rem 0.3rem;
+    background: #FFFFFF;
+}
+.zctime {
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-intr {
+    display: flex;
+    /*height: 3.61rem;*/
+    font-size: 0.32rem;
+    padding: 0.4rem 0.3rem;
+}
+
+.intr-img {
+    width: 1.8rem;
+    height: 1.8rem;
+    background: rgba(245,245,245,1);
+}
+    .intr-img img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .match-result-item-wraps {
+        font-size: 0.28rem;
+    }
+
+.pay-detail {
+    margin-left: 0.24rem;
+}
+
+.pay-price {
+    display:flex;
+    align-items:center;
+}
+.pay-type {
+    padding: 0.39rem 0;
+}

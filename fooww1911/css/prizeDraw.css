@@ -1,0 +1,414 @@
+﻿body {
+    width: 7.5rem;
+    height: 20.35rem;
+    background: url("/Content/fooww1911/img/prizeDraw/prizeDrawBg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+#box {
+    width: 7.36rem;
+    height: 10.79rem;
+    background: url("/Content/fooww1911/img/prizeDraw/prizeDrawMachine.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 3.26rem;
+    overflow: hidden;
+}
+
+/*#ball_body {
+    width: 6rem;
+    height: 5.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+}*/
+
+.btn_bottom {
+    display: block;
+    position: absolute;
+    bottom: 3.63rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3.12rem;
+    height: 0.66rem;
+}
+
+.ball_btn {
+    width: 2.95rem;
+    height: 1.19rem;
+    position: absolute;
+    bottom: 3.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.ball_btn1,
+.ball_btn2,
+.ball_btn3 {
+    width: 2.95rem;
+    height: 1.19rem;
+    position: relative;
+}
+
+    .ball_btn1 img,
+    .ball_btn2 img,
+    .ball_btn3 img {
+        width: 2.95rem;
+        height: 1.19rem;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+    }
+
+    .ball_btn1 img,
+    .ball_btn2 img {
+        animation: 1s btnMove linear infinite;
+        -webkit-animation: 1s btnMove linear infinite;
+    }
+
+.ball {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 4.6rem;
+    margin-left: -0.1rem;
+    z-index: 300;
+    animation: ballMove 2s ease-in-out;
+    -webkit-animation: ballMove 2s ease-in-out;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+@keyframes ballMove {
+    0% {
+        transform: translateY(-1rem) scale(0.5);
+    }
+
+    20% {
+        transform: translateY(-0.5rem) scale(0.5);
+    }
+
+    100% {
+        transform: translateY(-5rem) scale(0.9);
+    }
+}
+
+@-webkit-keyframes ballMove {
+    0% {
+        transform: translateY(-1rem) scale(0.5);
+    }
+
+    20% {
+        transform: translateY(-0.5rem) scale(0.5);
+    }
+
+    100% {
+        transform: translateY(-5rem) scale(0.9);
+    }
+}
+
+@keyframes btnMove {
+    0% {
+        top: 0rem;
+    }
+
+    50% {
+        top: 0.05rem;
+    }
+
+    100% {
+        top: 0rem;
+    }
+}
+
+@-webkit-keyframes btnMove {
+    0% {
+        top: 0rem;
+    }
+
+    50% {
+        top: 0.05rem;
+    }
+
+    100% {
+        top: 0rem;
+    }
+}
+
+.detail {
+    font-size: 0.3rem;
+}
+
+
+.barrage-wrap {
+    font-size: 0.26rem;
+    color: #fff;
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+.remaining {
+    position: absolute;
+    font-size: 0.5rem;
+    bottom: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#remaining-times {
+    margin-left: 0.43rem;
+}
+
+.detail,
+.my-coupon {
+    position: absolute;
+    bottom: 0.3rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.detail {
+    left: 1rem;
+}
+
+.my-coupon {
+    right: 1rem;
+}
+
+.icon-right {
+    display: block;
+    background: url("/Content/fooww1911/img/prizeDraw/white-right.png") no-repeat;
+    width: 0.16rem;
+    height: 0.16rem;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -0.26rem;
+    top: 0.08rem;
+}
+
+.bulletin-board {
+    height: 5.58rem;
+    /*display: flex;
+    align-items: center;*/
+    overflow: hidden;
+    background: url("/Content/fooww1911/img/prizeDraw/movement.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    bottom: -3.55rem;
+    padding-top: 1.35rem;
+    box-sizing: border-box;
+}
+
+.notice-title {
+    margin: 0 auto;
+    height: 3.5rem;
+    overflow: hidden;
+}
+
+
+.lottery-result {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .lottery-result .discount {
+        width: 6.04rem;
+        height: 8.11rem;
+        background-size: 100% 100%;
+        padding-top: 2.25rem;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .lottery-result .coupon {
+        width: 6.04rem;
+        height: 8.11rem;
+        background: url(/Content/fooww1911/img/prizeDraw/winCoupon.png);
+        background-size: 100% 100%;
+        padding-top: 2.05rem;
+        padding-left: 0.4rem;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+    }
+
+.discount .res-text {
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: rgba(255,35,36,1);
+    text-align: center;
+    margin-bottom: 0.45rem;
+}
+
+.discount .res-des {
+    font-size: 0.24rem;
+    font-weight: 500;
+    color: rgba(94,94,94,1);
+    text-align: center;
+}
+
+.lottery-result .chance {
+    font-size: 0.36rem;
+    font-weight: 500;
+    color: rgba(255,254,254,1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+    .lottery-result .chance::after {
+        content: '';
+        position: absolute;
+        top: 0.3rem;
+        right: 0.75rem;
+        display: block;
+        width: 0.6rem;
+        height: 0.02rem;
+        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+
+    .lottery-result .chance::before {
+        content: '';
+        position: absolute;
+        top: 0.3rem;
+        left: 0.75rem;
+        display: block;
+        width: 0.6rem;
+        height: 0.02rem;
+        background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+
+.lottery-result .confirm-btn {
+    font-size: 0.45rem;
+    font-weight: bold;
+    color: rgba(255,42,46,1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6rem;
+}
+
+.lottery-result .close-icon {
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    bottom: -0.67rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+    .lottery-result .close-icon img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+.coupon .left {
+    width: 2.1rem;
+    font-size: 0.24rem;
+    color: #FF2331;
+    font-weight: 500;
+    padding-top: 0.57rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.left .price {
+    font-size: 0.66rem;
+    font-weight: 700;
+    /*font-family: DengXian;*/
+}
+
+.left .coupon-type {
+    color: #5E5E5E;
+    text-align: left;
+    margin-top: -0.2rem;
+}
+
+.coupon .right {
+    flex: 1;
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: rgba(77,77,77,1);
+    padding-top: 0.68rem;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+}
+
+.right .coupon-des {
+    font-size: 0.24rem;
+    font-weight: 500;
+    color: rgba(94,94,94,1);
+    margin-top: -0.05rem;
+}
+
+.share-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 998;
+    display: none;
+}
+
+    .share-mask img {
+        width: 2.31rem;
+        height: 2.68rem;
+        float: right;
+    }
+
+.back-to-index {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 170px;
+    right: 5px;
+    z-index: 10;
+}
+
+    .back-to-index img {
+        display: block;
+        width: 80px;
+        height: 80px;
+    }
+
+/*扭蛋机*/
+
+.niu_danji .dan_gund {
+    width: 6.1rem;
+    height: 4.8rem;
+    position: absolute;
+    left: 0.55rem;
+    top: 0.9rem;
+    z-index: 1;
+    border-radius: 0 0 90px 90px;
+    overflow: hidden
+}
+
+
+.lampshade {
+    width: 6.06rem;
+    height: 3.5rem;
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    z-index: 20;
+}

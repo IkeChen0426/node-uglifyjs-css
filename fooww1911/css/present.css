@@ -1,0 +1,168 @@
+﻿[v-cloak] {
+    display: none
+}
+/*介绍*/
+.go-to-foowwtraining {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5.85rem;
+}
+.introduction {
+    position: relative;
+    z-index: -1;
+}
+
+    .introduction img {
+        display: block;
+        width: 7.5rem;
+        height: 6.4rem;
+    }
+
+    .introduction .title {
+        position: absolute;
+        top: 0.52rem;
+        font-size: 0.72rem;
+        font-family: Microsoft YaHei;
+        font-weight: bold;
+        line-height: 0.95rem;
+        color: rgba(255,255,255,1);
+        width: 100%;
+        text-align: center;
+    }
+
+    .introduction .sub-title {
+        position: absolute;
+        top: 1.55rem;
+        font-size: 0.4rem;
+        font-family: Microsoft YaHei;
+        font-weight: 300;
+        line-height: 0.53rem;
+        color: rgba(255,255,255,1);
+        width: 100%;
+        text-align: center;
+    }
+/*优惠券*/
+.coupon-box {
+    margin: -0.57rem auto 0.3rem;
+    width: 7.1rem;
+    padding: 0.3rem 0.2rem 0.1rem;
+    box-sizing: border-box;
+    background: rgba(255,255,255,1);
+    border-radius: 0.16rem;
+}
+
+    .coupon-box .coupon {
+        margin-bottom: 0.3rem;
+        position: relative;
+    }
+
+.coupon-title {
+    text-align: center;
+    margin-bottom: 0.3rem;
+    position: relative;
+    font-weight: 700;
+    font-size: 0.35rem;
+}
+
+    .coupon-title::before,
+    .coupon-title::after {
+        content: '';
+        display: block;
+        width: 0.5rem;
+        height: 0.04rem;
+        background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+        position: absolute;
+        top: 0.23rem;
+    }
+
+    .coupon-title::before {
+        left: 1.61rem;
+    }
+
+    .coupon-title::after {
+        transform: rotate(180deg);
+        right: 1.61rem;
+    }
+
+.coupon-img {
+    display: block;
+    width: 6.69rem;
+}
+
+.coupon .coupon-right {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+}
+/*规则*/
+.activity-rules {
+    line-height: 0.5rem;
+    font-size: 0.28rem;
+    width: 7.1rem;
+    height: 6.95rem;
+    background: rgba(255,255,255,1);
+    box-shadow: 0rem 0.08rem 0.3rem rgba(20,0,0,0.04);
+    opacity: 1;
+    border-radius: 0.16rem;
+    margin: 0 auto 0.34rem;
+    padding: 0.4rem 0.33rem 0;
+    box-sizing: border-box;
+    color: rgba(41,29,29,1);
+}
+
+.activity-rules-title {
+    text-align: center;
+    margin-bottom: 0.32rem;
+    position: relative;
+    font-weight: 700;
+    font-size: 0.35rem;
+}
+
+    .activity-rules-title::before,
+    .activity-rules-title::after {
+        content: '';
+        display: block;
+        width: 0.5rem;
+        height: 0.04rem;
+        background: linear-gradient(87deg,rgba(255,0,0,0) 0%,rgba(255,0,0,0.8) 100%);
+        position: absolute;
+        top: 0.23rem;
+    }
+
+    .activity-rules-title::before {
+        left: 1.2rem;
+    }
+
+    .activity-rules-title::after {
+        transform: rotate(180deg);
+        right: 1.2rem;
+    }
+
+.activity-rules ol {
+    padding: 0 0 0 0.3rem;
+    margin: 0;
+}
+
+    .activity-rules ol li {
+        list-style: decimal;
+        margin-bottom: 0.15rem;
+    }
+
+/*返回首页*/
+.back-to-index {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: fixed;
+    bottom: 1.7rem;
+    right: 0.05rem;
+}
+
+    .back-to-index img {
+        display: block;
+        width: 1.6rem;
+        height: 1.6rem;
+    }

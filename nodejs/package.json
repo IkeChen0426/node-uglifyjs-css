@@ -1,0 +1,14 @@
+{
+  "name": "uglify",
+  "version": "1.0.0",
+  "description": "压缩混淆js、css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css": "^4.2.1"
+  }
+}
